@@ -10,11 +10,15 @@ Make sure to learn what the starter code does!!
 
 body{
   color: black;
-  font-family: 'Andika', sans-serif;
+  font-family: "Andika", sans-serif;
   font-size: 16px;
   margin: 1.2em;
+
+  background: url("../images/pigeon-background.JPEG") #DDDDDD;
   background-size: cover ;
+  
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 main{
@@ -36,7 +40,12 @@ p{
   color: black;
   size: 16px;
   padding-top: 10px;
+  
 
+}
+
+a:focus{
+  border-style: 2px black;
 }
 
 a{
@@ -48,8 +57,11 @@ a{
 
 }
 
-table{
-    border: 2px solid black;
+table,th,td{
+    border-top: 2px solid black;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+
 }
 
 .colhead{
@@ -65,7 +77,9 @@ td{
 
 tr{}
 
-*{}
+*{
+  
+}
 
 thead tr:first-child th:first-child{}
 
