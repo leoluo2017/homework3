@@ -43,7 +43,7 @@ caption{
 
 body > p{
   color: black;
-  size: 16px;
+  font-size: 16px;
   padding-top: 10px;
   
 
@@ -57,10 +57,8 @@ a{
   font-size:16px;
   color:#B21F50;
   text-decoration: wavy underline;
-
-
-
 }
+
 table{
   margin-left:auto;
   margin-right:auto;
